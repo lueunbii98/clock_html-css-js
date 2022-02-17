@@ -47,3 +47,7 @@ body {
     transition: all 0.05s; /* transition timing duration */
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);/* transition style */
 }
+
+.notransition{
+    transition: none !important;
+}
