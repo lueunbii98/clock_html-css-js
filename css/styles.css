@@ -42,4 +42,8 @@ body {
     background: black;
     position: absolute;
     top: 50%;
+    transform-origin: 100%;/* changing the pivot for rotation to the end of the element */
+    transform: rotate(90deg);/* setting the hans to start at 12 */
+    transition: all 0.05s; /* transition timing duration */
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);/* transition style */
 }
